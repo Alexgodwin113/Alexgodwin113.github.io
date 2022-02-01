@@ -1057,6 +1057,7 @@ figcaption .sub-title {
          border-radius: 50%;
          margin: 0;
          margin-top: 240px;
+         margin-bottom: -40px;
      }
 
      .col-md-6 .hero-img{
@@ -1071,6 +1072,40 @@ figcaption .sub-title {
 
      .mh-professional-skills h3 {
          margin-top: 50px;
+     }
+
+     .workshop-para {
+         margin-left: -20px;
+         font-size: 14px;
+         text-align: justify;
+         padding: 0px 10px;
+     }
+
+     .mh-service h3 {
+         line-height: 43px;
+     }
+
+     .about .container .row {
+         margin-bottom: -40px;
+     }
+
+     .mh-service .container .row {
+         margin-bottom: -60px;
+     }
+
+     .mh-professional-skills {
+         margin-left: -20px;
+     }
+
+     .mh-education {
+         margin-left: 30px;
+     }
+     .mh-work h3 {
+         margin-left: -5px;
+     }
+     .mh-work {
+         margin-left: -20px;
+         margin-bottom: -50px;
      }
 }
 
