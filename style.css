@@ -241,141 +241,6 @@ ul {
 }
 
 
-/*-------------Media Query 1 = 767px------------------*/
-/* media queries for Side bar nav bar responsive */
-
-@media (max-width: 767px){
-    .header .sidemenu {
-        width: 100%;
-    }
-
-    .header .sidemenu nav a{
-        font-size: 1rem;
-    }
-}
-
-
-@media (min-width: 760px) and (max-width: 991px){
-    .header .sidemenu {
-        width: 70%;
-    }
-
-    .header .sidemenu nav a{
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 1199px){
-    .header .menu {
-        display: none;
-    }
-}
-
-
-@media (max-width: 767px){
-    
-     .hero-img img {
-         width: 350px;
-         height: 350px;
-         float: none;
-         text-align: center;
-         border: 20px solid rgba(0,0,0,0.17);
-         border-radius: 50%;
-       
-     }
-
-     .col-md-6 .hero-img{
-         margin: 0;
-         padding: 0;
-         margin-top: -200px;
-     }
-
-     .mh-work h3{
-        margin-top: 50px;
-     }
-
-     .mh-professional-skills h3 {
-         margin-top: 50px;
-     }
-}
-
-/* --------------------------------Media Query 2 992px------------------*/
-
-@media (max-width: 992px){
-    /*------------------hm image--------------*/
-    .hero-img { 
-        margin: 0px;
-     }
-
-    
-     .hero-img img {
-         margin-top: 230px;
-         width: 300x;
-         height: 300px;
-        
-         float: none;
-         text-align: center;
-         border: 20px solid rgba(0,0,0,0.17);
-         border-radius: 50%;
-     }
-     /*------------------wksop-----------------*/
- 
-     .col-lg-6 img{
-         width: 700px;
-         height: 600px;
-     }
-    
-    .workshop-bottom {
-        margin: 0;
-        padding: 0;
-        align-items: center;
-    
-    }
-
-    .gap{
-        margin-left: 25px;
-    }
-    
-
-    .tag ul li {
-        margin: 0px 6px;
-        border-radius: 4px;
-        margin-bottom: 10px;
-        padding: 4px 0px;
-        display: inline-block;
-    }
-   
-    .tag ul li span {
-        border: 1px solid #0bceaf;
-        padding: 4px 10px;
-        border-radius:4px;
-    }
-
-    .col-sm-4 .mh-service-item h3{
-        font-size: 20px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*----------------- Home Page Styling-----------*/
@@ -1131,3 +996,142 @@ figcaption .sub-title {
     color: #0bceaf;
 }
 
+
+
+
+
+
+
+/*-------------Media Query 1 = 767px------------------*/
+/* media queries for Side bar nav bar responsive */
+
+@media only screen and (max-width: 767px){
+    .header .sidemenu {
+        width: 100%;
+    }
+
+    .header .sidemenu nav a{
+        font-size: 1rem;
+    }
+
+    .portfolio-nav ul li {
+        padding-top: 15px;
+    }
+    
+.portfolio-nav ul li span{
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.portfolio-nav ul li.current span {
+    border-bottom: 2px solid #0bceaf;
+}
+}
+
+
+@media (min-width: 760px) and (max-width: 991px){
+    .header .sidemenu {
+        width: 70%;
+    }
+
+    .header .sidemenu nav a{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1199px){
+    .header .menu {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    
+     .hero-img img {
+         width: 350px;
+         height: 300px;
+         float: none;
+        margin: 0px;
+         border: 20px solid rgba(172, 143, 143, 0.17);
+         border-radius: 50%;
+         margin: 0;
+         margin-top: 240px;
+     }
+
+     .col-md-6 .hero-img{
+         margin: 0;
+         padding: 0;
+         margin-top: -200px;
+     }
+
+     .mh-work h3{
+        margin-top: 50px;
+     }
+
+     .mh-professional-skills h3 {
+         margin-top: 50px;
+     }
+}
+
+/* --------------------------------Media Query 2 992px------------------*/
+
+@media (min-width: 767px) and (max-width: 991px){
+    /*------------------hm image--------------*/
+    .hero-img { 
+        margin: 0px;
+     }
+     
+    
+     .hero-img img {
+         margin-top: 230px;
+         width: 300x;
+         height: 300px;
+        
+         float: none;
+         text-align: center;
+         border: 20px solid rgba(0,0,0,0.17);
+         border-radius: 50%;
+     }
+    }
+     /*------------------wksop-----------------*/
+     @media (max-width: 991px){
+     .col-lg-6 img{
+         width: 700px;
+         height: 600px;
+     }
+    
+    .workshop-bottom {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    
+    }
+
+    .gap{
+        margin-left: 25px;
+    }
+    
+
+    .tag ul li {
+        margin: 0px 6px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        padding: 4px 0px;
+        display: inline-block;
+    }
+   
+    .tag ul li span {
+        border: 1px solid #0bceaf;
+        padding: 4px 10px;
+        border-radius:4px;
+    }
+
+    .col-sm-4 .mh-service-item h3{
+        font-size: 20px;
+    }
+}
+
+
+
+}
